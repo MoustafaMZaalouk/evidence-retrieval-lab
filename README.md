@@ -20,18 +20,20 @@ On Windows use `.venv\Scripts\activate` instead. The first command runs the full
 
 ## Recorded results
 
+These are small educational benchmarks, not evidence of real-world generalization. Perfect scores on this small evaluation are not a production accuracy claim.
+
 ![Recorded local result](results.png)
 
 These values are generated from `results.json`, not estimated or copied. Rerun the code to check them. Minor numerical differences may occur across platforms. Full per-example or per-fold details, where applicable, are in the JSON file.
 
 | Measure | Local result |
 | --- | ---: |
-|  / abstention threshold | 0.100000 |
-|  / documents | 12 |
-|  / mrr | 1.000000 |
-|  / queries | 12 |
-|  / recall at 1 | 1.000000 |
-|  / recall at 3 | 1.000000 |
+| Abstention threshold | 0.100000 |
+| Documents | 12 |
+| MRR | 1.000000 |
+| Queries | 12 |
+| Recall at 1 | 1.000000 |
+| Recall at 3 | 1.000000 |
 
 `verification.txt` records the local test run. The included GitHub Actions workflow is a reproducible check, not a claim that remote CI has already passed.
 
