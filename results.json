@@ -1,0 +1,106 @@
+{
+  "abstention_threshold": 0.1,
+  "documents": 12,
+  "mrr": 1.0,
+  "queries": 12,
+  "rankings": [
+    {
+      "expected": "split",
+      "query": "keep test labels away from model selection",
+      "rank": 1,
+      "score": 0.7464770161749581,
+      "top_document": "split"
+    },
+    {
+      "expected": "scaling",
+      "query": "subtract mean divide standard deviation",
+      "rank": 1,
+      "score": 0.6869409641603297,
+      "top_document": "scaling"
+    },
+    {
+      "expected": "precision",
+      "query": "false alarm precision predicted positives",
+      "rank": 1,
+      "score": 0.7831242198751307,
+      "top_document": "precision"
+    },
+    {
+      "expected": "recall",
+      "query": "missing actual positive cases recall",
+      "rank": 1,
+      "score": 0.6273662221500336,
+      "top_document": "recall"
+    },
+    {
+      "expected": "drift",
+      "query": "input distributions have changed",
+      "rank": 1,
+      "score": 0.38923133403258947,
+      "top_document": "drift"
+    },
+    {
+      "expected": "leakage",
+      "query": "information unavailable at prediction time",
+      "rank": 1,
+      "score": 0.6335006991062099,
+      "top_document": "leakage"
+    },
+    {
+      "expected": "retrieval",
+      "query": "rank documents for a question",
+      "rank": 1,
+      "score": 0.4714045207910317,
+      "top_document": "retrieval"
+    },
+    {
+      "expected": "calibration",
+      "query": "confidence against outcome frequency",
+      "rank": 1,
+      "score": 0.622671066140283,
+      "top_document": "calibration"
+    },
+    {
+      "expected": "forecast",
+      "query": "evaluate future time periods",
+      "rank": 1,
+      "score": 0.6075743255743276,
+      "top_document": "forecast"
+    },
+    {
+      "expected": "privacy",
+      "query": "sharing personal identifiers and consent",
+      "rank": 1,
+      "score": 0.7320718334375405,
+      "top_document": "privacy"
+    },
+    {
+      "expected": "baseline",
+      "query": "simple majority class reference",
+      "rank": 1,
+      "score": 0.7071067811865476,
+      "top_document": "baseline"
+    },
+    {
+      "expected": "reproducibility",
+      "query": "record seeds and dependency versions",
+      "rank": 1,
+      "score": 0.6874649505903073,
+      "top_document": "reproducibility"
+    }
+  ],
+  "recall_at_1": 1.0,
+  "recall_at_3": 1.0,
+  "unknown_results": [
+    {
+      "abstained": true,
+      "best_score": 0.0,
+      "query": "how to bake a chocolate cake"
+    },
+    {
+      "abstained": true,
+      "best_score": 0.0,
+      "query": "what is the capital of Peru"
+    }
+  ]
+}
